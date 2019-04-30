@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fdbc9b5-805c-4be7-bebb-2575967b8dbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database/META-INF/Database.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database/sfsu/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database/sfsu/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database/sfsu/ConcurrentServer$ClientParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database/sfsu/ConcurrentServer$ClientParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database/sfsu/ConcurrentServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database/sfsu/ConcurrentServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database/sfsu/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database/sfsu/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Database/sfsu/Random_Key_Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Database/sfsu/Random_Key_Value.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sfsu/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sfsu/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sfsu/ConcurrentServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sfsu/ConcurrentServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sfsu/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sfsu/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sfsu/Random_Key_Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sfsu/Random_Key_Value.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sfsu/ConcurrentServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+            <state relative-caret-position="1309">
+              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,16 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sfsu/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1156">
+              <caret line="114" column="90" selection-start-line="114" selection-start-column="90" selection-end-line="114" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -110,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/sfsu/Synchronized_Hash_Table.java" />
         <option value="$PROJECT_DIR$/src/sfsu/Random_Value.java" />
         <option value="$PROJECT_DIR$/src/sfsu/Random_Key_Value.java" />
-        <option value="$PROJECT_DIR$/src/sfsu/Client.java" />
         <option value="$PROJECT_DIR$/src/sfsu/Database.java" />
         <option value="$PROJECT_DIR$/src/sfsu/ConcurrentServer.java" />
+        <option value="$PROJECT_DIR$/src/sfsu/Client.java" />
       </list>
     </option>
   </component>
@@ -249,17 +235,18 @@
       <workItem from="1556553644083" duration="1426000" />
       <workItem from="1556591214446" duration="3293000" />
       <workItem from="1556598858641" duration="285000" />
+      <workItem from="1556664041696" duration="18000" />
+      <workItem from="1556664226784" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13983000" />
+    <option name="totallyTimeSpent" value="15485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22080536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12874494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,7 +255,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9575071" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.77442276" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39957264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,10 +304,11 @@
     <entry file="file://$USER_HOME$/CSC413/FinalProject_OMail/omail/src/Mail.java" />
     <entry file="file://$USER_HOME$/CSC413/FinalProject_OMail/omail/src/Database.java" />
     <entry file="file://$USER_HOME$/CSC413/FinalProject_OMail/omail/src/ProcessNetwork.java" />
-    <entry file="file://$PROJECT_DIR$/../FuturesTutorial/FuturesTutorial/src/com/company/FuturesExample.java">
+    <entry file="file://$PROJECT_DIR$/../FuturesTutorial/FuturesTutorial/src/com/company/FuturesExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/sfsu/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="170">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -334,10 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sfsu/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/sfsu/ConcurrentServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="1309">
+          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -359,23 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sfsu/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sfsu/ConcurrentServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1156">
+          <caret line="114" column="90" selection-start-line="114" selection-start-column="90" selection-end-line="114" selection-end-column="90" />
         </state>
       </provider>
     </entry>

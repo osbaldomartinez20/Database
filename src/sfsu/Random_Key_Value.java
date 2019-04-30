@@ -31,7 +31,4 @@ public class Random_Key_Value {
         return Long.toString(System.nanoTime());
     }
 
-    public static void main(String[] args) {
-        System.out.println(getRandKey());
-    }
 }
