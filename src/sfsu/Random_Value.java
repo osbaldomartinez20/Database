@@ -1,0 +1,29 @@
+package sfsu;
+
+import java.util.Random;
+
+public class Random_Value {
+    private static final String[] val = {"gato", "perro", "burro", "gallina", "gallo", "pollo",
+                                    "vaca", "toro", "beserro", "chango", "leon", "tigre",
+                                    "paloma", "aguila", "pez", "caballo", "potrillo", "pato",
+                                    "mula", "hipopotamo", "chapulin", "conejo", "jirafa", "cuervo",
+                                    "gusano", "vivora", "serpiente", "abeja", "libelula", "dragon",
+                                    "quetzal", "boa", "gorila", "lobo", "coyote", "murcielago", "garza",
+                                    "fresa", "jitomate", "tomatillo", "naranja", "toronja", "lima", "limon",
+                                    "manzana", "guamuchil", "guayaba", "fruta", "animal", "verdura", "cebolla",
+                                    "aguacate", "brocoli", "tuna", "elefante", "puma", "platano", "camote",
+                                    "lechuga", "coliflor", "elote", "maiz", "tortilla", "mole", "tamale",
+                                    "frijol", "garbanzo", "puerco", "cerdo", "carpa", "pitaya", "nopal", "arroz",
+                                    "emu", "koala", "kanguro", "nutria", "marrano", "leche", "agua", "pozole",
+                                    "taco", "burrito", "pai", "paleta", "sabritas", "churro", "fritura", "pulpo",
+                                    "frambuesa", "planta", "tequila", "cerveza", "vino", "ponche", "agua fresca"};
+
+    public static String getValue() {
+        Random rand = new Random();
+        return val[rand.nextInt(val.length)];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getValue());
+    }
+}
