@@ -19,6 +19,8 @@ public class ConcurrentServer implements Runnable {
     // The port that this server will bind to.
     private final int port;
 
+    static Database mesa = new Database(200);
+
     /**
      * Creates a server in the specified port. The server will not start to listen until run is called.
      */
@@ -52,7 +54,6 @@ public class ConcurrentServer implements Runnable {
         @Override
         public void run() {
             try {
-                Database mesa = new Database(200);
                 // Parse the client request directly from the socket. Thank you protobuf.
                 DatabaseProtos.Request request = DatabaseProtos.Request.parseDelimitedFrom(socket.getInputStream());
 
@@ -68,12 +69,15 @@ public class ConcurrentServer implements Runnable {
                 //Case PUT accepts a key and a value and inserts the value into database based on the key value. Returns empty response.
                 } else if (request.getOperation().equals(DatabaseProtos.Request.OperationType.PUT)) {
                     mesa.put(request.getKey(), request.getValue());
+                    System.out.println(mesa.getTable());
                     DatabaseProtos.Response response = DatabaseProtos.Response.newBuilder()
+                            .setValue("")
                             .build();
                     response.writeDelimitedTo(socket.getOutputStream());
                 //Case DELETE accepts a key value and deletes the value associated with the key. Returns empty response.
                 } else if (request.getOperation().equals(DatabaseProtos.Request.OperationType.DELETE)) {
                     DatabaseProtos.Response response = DatabaseProtos.Response.newBuilder()
+                            .setValue("")
                             .build();
                     response.writeDelimitedTo(socket.getOutputStream());
                 //Default case returns a response with a value of 'Not a valid request."

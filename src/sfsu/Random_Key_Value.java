@@ -21,13 +21,13 @@ public class Random_Key_Value {
                                     "frambuesa", "planta", "tequila", "cerveza", "vino", "ponche", "agua fresca"};
 
     //This list returns a randomly picked value from String[] val.
-    public static String getRandValue() {
+    public synchronized static String getRandValue() {
         Random rand = new Random();
         return val[rand.nextInt(val.length)];
     }
 
     //This function returns a random key based on the nanoTime
-    public static String getRandKey() {
+    public synchronized static String getRandKey() {
         return Long.toString(System.nanoTime());
     }
 

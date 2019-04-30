@@ -34,6 +34,10 @@ public class Database {
         return temp;
     }
 
+    public Hashtable<String, String> getTable() {
+        return this.mesa;
+    }
+
     //only one delete at the time
     //With the key it is possible to find the value related to the key and delete it.
     public synchronized void delete(String key) {this.mesa.remove(key);}
