@@ -2,7 +2,9 @@ package sfsu;
 
 import java.util.Random;
 
-public class Random_Value {
+public class Random_Key_Value {
+
+    //This list is used to pick the random values to store in the database.
     private static final String[] val = {"gato", "perro", "burro", "gallina", "gallo", "pollo",
                                     "vaca", "toro", "beserro", "chango", "leon", "tigre",
                                     "paloma", "aguila", "pez", "caballo", "potrillo", "pato",
@@ -18,12 +20,18 @@ public class Random_Value {
                                     "taco", "burrito", "pai", "paleta", "sabritas", "churro", "fritura", "pulpo",
                                     "frambuesa", "planta", "tequila", "cerveza", "vino", "ponche", "agua fresca"};
 
-    public static String getValue() {
+    //This list returns a randomly picked value from String[] val.
+    public static String getRandValue() {
         Random rand = new Random();
         return val[rand.nextInt(val.length)];
     }
 
+    //This function returns a random key based on the nanoTime
+    public static String getRandKey() {
+        return Long.toString(System.nanoTime());
+    }
+
     public static void main(String[] args) {
-        System.out.println(getValue());
+        System.out.println(getRandKey());
     }
 }
