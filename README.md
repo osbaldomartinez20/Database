@@ -6,7 +6,7 @@
 	*Then right click on the tab Client.java, then click on the option that
 		says "Run 'Client.Main()'
 
-#What can be changed
+# What can be changed
 	*In Random_Key_Value.java there is a list, String[] val, that contains the
 		values that could be inserted into the database.
 	*The values are picked at random, so if you want to see other values being selected
